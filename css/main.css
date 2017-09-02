@@ -1,0 +1,60 @@
+.field {
+  border: 1px solid #48aae6;
+  display: inline-block;
+  border-spacing: 2px;
+  margin: 2px;
+}
+.field__square {
+  background-color: #48aae6;
+  width: 50px;
+  height: 50px;
+  padding: 0;
+}
+.add-buttons__btn,
+.delete-buttons__btn {
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 45px;
+  text-align: center;
+  transition: 0.4s linear;
+}
+.add-buttons__btn:hover,
+.delete-buttons__btn:hover {
+  transition: 0.4s linear;
+  cursor: pointer;
+}
+.add-buttons__btn:hover{
+  background-color: #f6c052;
+}
+.delete-buttons__btn:hover {
+  background-color: #ca4c49;
+}
+.delete-buttons__btn_row {
+  float: left;
+  margin-top: 5px;
+}
+.delete-buttons__btn_col {
+  margin-left: 55px;
+}
+.delete-buttons__btn {
+  background-color: #b20000;
+  visibility: hidden;
+}
+.add-buttons__btn {
+  background-color: #f3a500;
+}
+.add-buttons {
+  display: inline;
+}
+.add-buttons__btn_col {
+  margin: 5px 0 0 0;
+  display: inline-block;
+  vertical-align: top;
+}
+.add-buttons__btn_row {
+  margin: -4px 0 0 55px;
+  vertical-align: top;
+}
